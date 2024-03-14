@@ -1,9 +1,12 @@
-import { plusMinus } from './exercises/radio';
+// import { plusMinus } from './exercises/radio';
 
-const arr = [-4, 3, -9, 0, 4, 1];
+import { staircase } from './exercises/staircase';
+
+// const arr = [-4, 3, -9, 0, 4, 1];
 
 function main() {
-  plusMinus(arr);
+  // plusMinus(arr);
+  staircase(6);
 }
 
 main();
