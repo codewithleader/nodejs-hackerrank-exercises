@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-hackerrank-exercises",
+  "version": "1.0.0",
+  "description": "Ejercicios de programación en NodeJS de HackerRank.com",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "author": {
+    "name": "Elis Antonio Perez",
+    "email": "codewithleader@gmail.com",
+    "url": "https://github.com/codewithleader"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
