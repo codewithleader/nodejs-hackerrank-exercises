@@ -4,11 +4,9 @@
 // import { createPalindrome } from './exercises/palindrome';
 // import { minMaxSum } from './exercises/min-max-sum';
 // import { birthdayCakeCandles } from './exercises/birthday-cake-candles';
+// import { timeConversion } from './exercises/hour-format-converter';
 
-import { timeConversion } from './exercises/hour-format-converter';
-
-
-
+import { gradingStudents } from './exercises/grading-students';
 
 // const arr = [-4, 3, -9, 0, 4, 1];
 // const arr = [3, 2, 4, 5, 1];
@@ -20,7 +18,8 @@ function main() {
   // createPalindrome('reliquia');
   // minMaxSum(arr);
   // birthdayCakeCandles([3, 2, 1, 3]);
-  timeConversion('07:05:45PM');
+  // timeConversion('07:05:45PM');
+  console.log(gradingStudents([73, 67, 38, 33]));
 }
 
 main();
