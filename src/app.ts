@@ -3,8 +3,10 @@
 // import { isPalindrome } from './exercises/palindrome';
 // import { createPalindrome } from './exercises/palindrome';
 // import { minMaxSum } from './exercises/min-max-sum';
+// import { birthdayCakeCandles } from './exercises/birthday-cake-candles';
 
-import { birthdayCakeCandles } from './exercises/birthday-cake-candles';
+import { timeConversion } from './exercises/hour-format-converter';
+
 
 
 
@@ -17,7 +19,8 @@ function main() {
   // isPalindrome('A man, a plan, a canal. Panama');
   // createPalindrome('reliquia');
   // minMaxSum(arr);
-  birthdayCakeCandles([3, 2, 1, 3]);
+  // birthdayCakeCandles([3, 2, 1, 3]);
+  timeConversion('07:05:45PM');
 }
 
 main();
